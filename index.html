@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css"/>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/animate.css"/>
+    <!--    <link rel="stylesheet" type="text/css" media="screen" href="css/swiper.min.css"/>-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+    <!--    <script type="text/javascript" src="js/swiper.min.js"></script>-->
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<div class="wraper">
+<header class="header-all">
+
+    <div class="container ">
+
+
+        <nav class="header__nav wow fadeInDownBig">
+
+            <img class="nav-logo" src="img/logo_header.png" alt="logo">
+            <img class="header__shape" src="img/Shape1.png" alt="Shape">
+
+            <div class="call-answer" id="call-answer-center">
+                <img src="img/call-answer.png" alt="call-answer">
+                <a class="call-answer-tel">+7 (123) 456-78-90</a>
+            </div>
+
+            <div>
+                <input type="checkbox" name="menu" id="btn-menu">
+                <label class="btn-menu" for="btn-menu">
+                    <img src="img/Hamburger_icon.png" class="img_hum" alt="hamburger-menu">
+                    <img src="img/Hamburger_iconХ.png" class="img_x" alt="iconХ">
+                </label>
+                <ul class="menu-main">
+                    <li class="nav__el header__menu">
+                        <a class="nav-a" href="#selection">Подбор авто</a>
+                    </li>
+                    <li class="nav__el header__menu">
+                        <a class="nav-a" href="#services"> Услуги И ЦЕНЫ</a>
+                    </li>
+                    <li class="nav__el header__menu ">
+                        <a class="nav-a" href="#working"> Как мы работаем</a>
+                    </li>
+                    <li class="nav__el header__menu">
+                        <a class="nav-a" href="#guarantees">Гарантии</a>
+                    </li>
+                    <li class="nav__el header__menu">
+                        <a class="nav-a" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="call-answer" id="call-answer-right">
+                <img src="img/call-answer.png" alt="call-answer">
+                <a>+7 (123) 456-78-90</a>
+            </div>
+        </nav>
+
+        <div class="header__text wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="1s">
+            <h1 class="title-h1-black">Быстро подберем</h1>
+            <h1 class="title-h1-blue">автомобиль</h1>
+            <p class="header_title_text">Подбор автомобиля с пробегом по лучшим ценам</p>
+        </div>
+
+    </div>
+    <!--    <img class="header-img-element" src="img/icon_for_bg1.png" alt="icon_for_bg1">-->
+    <div class="header-car ">
+        <img class="header-car" src="img/bg1-car.png" alt="car">
+    </div>
+    <div class="container">
+        <div>
+            <h5 class="title-h5" id="selection">Подбор автомобиля</h5>
+            <form class="form wow fadeInUpBig" action="" method="get">
+                <div class="form-input1">
+                    <span class="title-input">Марка, модель</span>
+                    <input class="input1" name="s" placeholder="Mercedes" type="search">
+                </div>
+
+                <div class="form-input2">
+                    <div class="form-input2-1">
+                        <span class="title-input">Год, от</span>
+                        <input class="input2" name="s" placeholder="2008" type="search">
+                    </div>
+
+                    <div class="form-input2-2">
+                        <span class="title-input">Год, до</span>
+                        <input class="input2" name="s" placeholder="2013" type="search">
+                    </div>
+                </div>
+                <div class="form-input3">
+                    <div class="form-input3-1">
+                        <span class="title-input">Цена, от</span>
+                        <input class="input3" name="s" placeholder="900 000" type="search">
+                    </div>
+
+                    <div class="form-input3-2">
+                        <span class="title-input">Цена, до</span>
+                        <input class="input3" name="s" placeholder="1200 000" type="search">
+                    </div>
+                </div>
+
+                <button class="button button-header-align" type="submit"><img class="img-in-btn" src="img/icon-car.png"
+                                                                              alt="car">подобрать авто
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="section2 container" id="services">
+        <h2 class="title-h2">Проверка состояния</h2>
+        <div class="section2-content">
+            <div class="section2-row">
+                <div class="section2-col">
+                    <div class="section2-title">
+                        <span class="section2-title-icon">
+                        <img class="section2-title-img" src="img/section2_icon/car-crash.png" alt="car-crash">
+                        </span>
+                        <span class="section2-title-text">Проверка кузова на ДТП,<br> проверка ЛКП</span>
+                    </div>
+                    <div class="section2-title">
+                        <span class="section2-title-icon">
+                        <img class="section2-title-img" src="img/section2_icon/car1.png" alt="car1">
+                        </span>
+                        <span class="section2-title-text">Проверка интерьера <br> и экстерьера</span>
+                    </div>
+                    <div class="section2-title">
+                        <span class="section2-title-icon">
+                        <img class="section2-title-img" src="img/section2_icon/car-parts.png" alt="car-parts">
+                        </span>
+                        <span class="section2-title-text">Проверка технической <br> части авто </span>
+                    </div>
+                    <div class="section2-title">
+                        <span class="section2-title-icon">
+                        <img class="section2-title-img" src="img/section2_icon/car-insurance.png" alt="car-insurance">
+                        </span>
+                        <span class="section2-title-text">Проверка документов <br> автомобиля </span>
+                    </div>
+                </div>
+                <div class="  section2-col-media980">
+                    <div class="section2-col">
+                        <div class="section2-title">
+                            <span class="section2-title-icon">
+                            <img class="section2-title-img" src="img/section2_icon/balance.png" alt="balance"></span>
+                            <span class="section2-title-text">Проверка юридической <br> чистоты авто</span>
+                        </div>
+                        <div class="section2-title">
+                            <span class="section2-title-icon">
+                            <img class="section2-title-img" src="img/section2_icon/car-insurance1.png" alt="car-insurance1"></span>
+                            <span class="section2-title-text">Реальная оценка <br> автомобиля</span>
+                        </div>
+                    </div>
+                    <div class="section2-col">
+                        <div class="section2-title">
+                            <span class="section2-title-icon">
+                            <img class="section2-title-img" src="img/section2_icon/ticket.png" alt="ticket"></span>
+                            <span class="section2-title-text">Составление договора <br>купли-продажи авто </span>
+                        </div>
+                        <div class="section2-title">
+                            <span class="section2-title-icon">
+                            <img class="section2-title-img" src="img/section2_icon/driving-license.png"
+                                 alt="driving-license"></span>
+                            <span class="section2-title-text">Помощь при оформлении <br> диагностической карты</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2-car wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="img/bg2-car.png" alt="bg2-car">
+            </div>
+
+        </div>
+        <div class="section2-button-skew">
+            <a href="/" class="button-skew">Смотреть весь список <img class="button-skew-arow"
+                                                                      src="img/arrow-pointing-to-right.png" alt="arow"></a>
+        </div>
+
+
+    </div>
+    <div class="section3 ">
+        <div class="section3-content container">
+            <div class="section3-text wow fadeInLeftBig">
+                <h3 class="title-h3-black">Бесплатная </h3>
+                <h3 class="title-h3-blue">консультация</h3>
+                <p class="section3_title_text ">Оставьте заявку и мы ответим<br> на все интересующие вопросы</p>
+            </div>
+            <div class="section3-form">
+                <input class="input-tel" type="tel" name="phone_number" placeholder="+7 (___) ___-__-__">
+                <button class="button" type="submit">Отправить заявку</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="section4">
+        <div class="section4-content container">
+            <h2 class="title-h2 ">Услуги и цены</h2>
+            <p class="title-h7-black title-h7-black-align">Заказанная услуга у нас станет оправданна после осмотра
+                автомобиля и торга с продавцом. Вы получите юридически чистый и технический исправный автомобиль,
+                который в дальнейшем вас будет радовать</p>
+            <div class="section4-service-row1">
+                <div class="section4-service1 wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s">
+                    <div class="section4-service-info">
+                        <div class="section4-service-icon align-cabriolet">
+                            <img src="img/section4-icon/cabriolet.png" alt="cabriolet">
+                        </div>
+                        <p class="section4-title-text align-text-row">Удаленная проверка юридической стороны
+                            автомобиля, соответствие пробегу и производимым ремонтам</p>
+                    </div>
+
+                    <div class="section4-skew">
+                        <div class="section4-button-skew">
+                            <a href="#openModal" class="button-skew4">Оставить заявку</a>
+                        </div>
+                        <div id="openModal" class="modalDialog">
+                            <div>
+                                <a href="#close" title="Закрыть" class="close">X</a>
+                                <form >
+                                    <input  class="input-name" type="text" name="fio" placeholder="Имя" required>
+                                    <input class="input-tel" type="text" name="tel" placeholder="+7 (___) ___-__-__" required>
+                                    <button class="button">Оставить заявку</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="section4-img-skew">
+                            <div href="\" class="img-skew-red"><p class="section4-img-skew-s">от</p>
+                                <p class="section4-img-skew-h">500 руб.</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section4-service1 wow bounceInDown" data-wow-duration="3s" data-wow-delay="1.5s">
+                    <div class="section4-service-info">
+                        <div class="section4-service-icon align-car-repair">
+                            <img src="img/section4-icon/car-repair.png" alt="car-repair">
+                        </div>
+                        <p class="section4-title-text align-text-row">Выездная диагностика автомобиля. Проверка
+                            юридической стороны, лакокрасочного покрытия и технической части автомобиля</p>
+                    </div>
+
+                    <div class="section4-skew">
+                        <div class="section4-button-skew">
+                            <a href="#openModal" class="button-skew4">Оставить заявку</a>
+                        </div>
+
+                        <div id="openModal" class="modalDialog">
+                            <div>
+                                <a href="#close" title="Закрыть" class="close">X</a>
+                                <form >
+                                    <input  class="input-name" type="text" name="fio" placeholder="Имя" required>
+                                    <input class="input-tel" type="text" name="tel" placeholder="+7 (___) ___-__-__" required>
+                                    <button class="button">Оставить заявку</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="section4-img-skew">
+                            <div href="\" class="img-skew-red"><p class="section4-img-skew-s">от</p>
+                                <p class="section4-img-skew-h">2 000 руб.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section4-service-row2">
+                <div class="section4-service1 wow bounceInDown" data-wow-duration="4s" data-wow-delay="2s">
+                    <div class="section4-service-info">
+                        <div class="section4-service-icon align-24-hours ">
+                            <img src="img/section4-icon/24-hours.png" alt="24-hours">
+                        </div>
+                        <p class="section4-title-text">Автоэксперт на день, передвижение на автомобиле эксперта,
+                            осмотр неограниченного количества автомобилей по всем параметрам, оформление дкп при
+                            необходимости</p>
+                    </div>
+
+                    <div class="section4-skew">
+                        <div class="section4-button-skew">
+                            <a href="#openModal" class="button-skew4">Оставить заявку</a>
+                        </div>
+
+                        <div id="openModal" class="modalDialog">
+                            <div>
+                                <a href="#close" title="Закрыть" class="close">X</a>
+                                <form >
+                                    <input  class="input-name" type="text" name="fio" placeholder="Имя" required>
+                                    <input class="input-tel" type="text" name="tel" placeholder="+7 (___) ___-__-__" required>
+                                    <button class="button">Оставить заявку</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="section4-img-skew">
+                            <div href="\" class="img-skew-red"><p class="section4-img-skew-s">от</p>
+                                <p class="section4-img-skew-h">2 000 руб.</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section4-service1 wow bounceInDown" data-wow-duration="5s" data-wow-delay="2.5s">
+                    <div class="section4-service-info">
+                        <div class="section4-service-icon align-loan">
+                            <img src="img/section4-icon/loan.png" alt="loan">
+                        </div>
+                        <p class="section4-title-text ">Подбор автомобиля под ключ. По вашему бюджету и пожеланиям
+                            подберем лучший автомобиль на рынке. Проверка автомобиля по всем параметрам и
+                            сопровождение сделки до полного переоформления автомобиля на вас </p>
+                    </div>
+
+                    <div class="section4-skew">
+                        <div class="section4-button-skew">
+                            <a href="#openModal" class="button-skew4">Оставить заявку</a>
+                        </div>
+
+                        <div id="openModal" class="modalDialog">
+                            <div>
+                                <a href="#close" title="Закрыть" class="close">X</a>
+                                <form >
+                                    <input  class="input-name" type="text" name="fio" placeholder="Имя" required>
+                                    <input class="input-tel" type="text" name="tel" placeholder="+7 (___) ___-__-__" required>
+                                    <button class="button">Оставить заявку</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="section4-img-skew">
+                            <div href="\" class="img-skew-red"><p class="section4-img-skew-s">от</p>
+                                <p class="section4-img-skew-h">12 000 руб.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="section5">
+        <div class="section5-car">
+            <img src="img/car.png" alt="car">
+        </div>
+        <div class="section5-content container" id="working">
+            <h2 class="title-h2">Как мы работаем?</h2>
+
+
+            <div class="section5-title-row1 wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="section5-title">
+
+                    <img class="section5-title-img align-phone" src="img/section5/phone-call%20(1).png"
+                         alt="phone-call">
+                    <p class="section5-title-text">Звонок нам или заявка на сайте</p>
+
+                </div>
+
+
+                <img class="section5-shape1" src="img/section5/Shape%2061.png" alt="Shape">
+
+
+                <div class="section5-title">
+
+                    <img class="section5-title-img align-clock" src="img/section5/clock%20(1).png" alt="clock">
+                    <p class="section5-title-text">Договариваемся о времени<br> и месте встречи</p>
+
+                </div>
+
+                <img class="section5-shape2" src="img/section5/Shape%2062.png" alt="Shape">
+
+
+                <div class="section5-title">
+
+                    <img class="section5-title-img " src="img/section5/steering-wheel.png" alt="steering-wheel">
+                    <p class="section5-title-text  ">Наши эксперты выезжают <br>на осмотр автомобилей вместе с вами</p>
+
+                </div>
+            </div>
+
+
+            <div class="section5-title-row2 wow fadeInRightBig" data-wow-duration="2.3s" data-wow-delay="1.3s">
+                <div class="section5-title">
+
+                    <img class="section5-title-img " src="img/section5/car-insurance%20(2).png" alt="car-insurance">
+                    <p class="section5-title-text">Осматриваем автомобиль<br>с использованием<br>профессионального
+                        оборудования</p>
+
+                </div>
+
+
+                <img class="section5-shape1" src="img/section5/Shape%2063.png" alt="Shape">
+
+
+                <div class="section5-title align-car-repair">
+
+                    <img class="section5-title-img " src="img/section5/car-repair%20(1).png" alt="car-repair">
+                    <p class="section5-title-text">Составляем подробный отчет<br>о состоянии автомобиля</p>
+
+                </div>
+
+                <img class="section5-shape2" src="img/section5/Shape%2064.png" alt="Shape">
+
+
+                <div class="section5-title align6">
+
+                    <img class="section5-title-img " src="img/section5/dialogue.png" alt="dialogue">
+                    <p class="section5-title-text">Даем устные рекомендации</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="section6" id="guarantees">
+        <div class="section6-content container wow fadeInLeftBig">
+
+            <div class="section6-text">
+                <h3 class="title-h3-black">Подберем авто </h3>
+                <h3 class="title-h3-blue">по лучшей цене</h3>
+                <p class="section3_title_text ">Оставьте заявку и мы ответим на все <br> интересующие вопросы</p>
+            </div>
+            <div class="section6-form">
+                <input class="input-tel-section6" type="tel" name="phone_number" placeholder="+7 (___) ___-__-__">
+                <button class="button-section6" type="submit">Отправить заявку</button>
+
+            </div>
+
+        </div>
+        <img class="section6-img" src="img/bg6-ScanAuto.png" alt="bg6-ScanAuto">
+
+    </div>
+    <div class="map-all">
+        <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2387.423610850642!2d39.10844158051288!3d53.24610788005628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x413734485c2cc343%3A0x79208a509726bbbf!2z0YPQuy4g0JzQvtGB0LrQvtCy0YHQutCw0Y8sIDEyMywg0JTQsNC90LrQvtCyLCDQm9C40L_QtdGG0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjywgMzk5ODUz!5e0!3m2!1sru!2sua!4v1556174509724!5m2!1sru!2sua"
+                width="100%" height="630" frameborder="0" style="border:0" allowfullscreen>
+
+        </iframe>
+        <div class="map-contact container" id="contact">
+            <span class="title-h9">Контакты</span>
+
+            <span class="title-h10">Телефон</span>
+            <p>+7 (123) 456-78-90</p>
+
+            <span class="title-h10">Эл. почта</span>
+            <p>info@scan-auto.ru</p>
+
+            <span class="title-h10">адрес</span>
+            <p>Москва, ул. Московская, 123</p>
+
+            <span class="title-h10">Режим работы</span>
+            <p>09:00 - 18:00 ежедневно</p>
+
+        </div>
+
+    </div>
+
+</main>
+<footer class="footer  ">
+    <div class=" footer-content container ">
+        <div class="footer-content-l">
+            <img class="footer-logo" src="img/ScanAuto-logo-footer.png" alt="Scan-Auto-logo-footer">
+            <p>Выездная диагностика и подбор автомобилей с пробегом</p>
+            <div class="footer-content-text-row">
+                <p>© 2018 Scan-Auto.ru</p>
+                <p class="footer-text-underline">Политика конфиденциальности</p>
+            </div>
+        </div>
+        <div class="footer-content-r">
+            <button class="button-footer">Заказать звонок</button>
+            <p>Сделано в GRAMPUS</p>
+        </div>
+    </div>
+</footer>
+</div>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+</html>
